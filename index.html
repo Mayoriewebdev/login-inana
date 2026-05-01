@@ -28,35 +28,43 @@
 
 
 
-<section class="welcome-section">
+    <section class="welcome-section">
 
-    <div class="welcome-container">
+        <div class="welcome-container">
 
-        <!-- TOP TEXT IMAGE -->
-        <img src="images/Welcome tect.png" alt="Welcome" class="welcome-text">
+            <!-- TOP TEXT IMAGE -->
+            <img src="images/Welcome tect.png" alt="Welcome" class="welcome-text" data-aos="fade-down"
+                data-aos-duration="1000">
 
-        <!-- AUTH BUTTONS GROUP -->
-        <div class="auth-buttons">
+            <!-- AUTH BUTTONS GROUP -->
+            <div class="auth-buttons" data-aos="zoom-in" data-aos-duration="1200">
 
-            <a href="login.html">
-                <img src="images/login text.png" class="login-img" alt="Login">
-            </a>
+                <a href="login.html">
+                    <img src="images/login text.png" class="login-img" alt="Login" data-aos="fade-right"
+                        data-aos-delay="200">
+                </a>
 
-            <a href="signup.html">
-                <img src="images/signup.png" class="signup-img" alt="Signup">
-            </a>
+                <a href="signup.html">
+                    <img src="images/signup.png" class="signup-img" alt="Signup" data-aos="fade-left"
+                        data-aos-delay="200">
+                </a>
+
+            </div>
+
+            <!-- FINGERPRINT -->
+            <div class="fingerprint" data-aos="fade-up" data-aos-duration="1200">
+                <img src="images/finger print login up.png" alt="Fingerprint">
+            </div>
 
         </div>
 
-        <!-- FINGERPRINT -->
-        <div class="fingerprint">
-            <img src="images/finger print login up.png" alt="Fingerprint">
-        </div>
+    </section>
 
-    </div>
 
-</section>
-
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </body>
 
